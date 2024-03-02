@@ -20,78 +20,11 @@
     <title>GreenHarvest</title>
     
     <script type="module" crossorigin src="/project-group-7/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/project-group-7/assets/index-0eb980a8.css">
+    <link rel="stylesheet" href="/project-group-7/assets/index-c0e868ac.css">
   </head>
 
   <body>
-    <header class="header">
-  <div class="container">
-    <div class="header-content">
-      <a href="../index.html" class="header-logo-link">
-        <svg class="header-icon-logo" width="16" height="16">
-          <use href="../img/icons.svg#icon-logo"></use>
-        </svg>
-        Green.harvest
-      </a>
-      <button type="button" class="header-menu-open-btn">
-        <svg class="header-icon-open-menu" width="32" height="32">
-          <use href="../img/icons.svg#icon-burger"></use>
-        </svg>
-      </button>
-      <div class="header-desktop">
-        <nav class="header-desktop-nav">
-          <ul class="header-desktop-nav-list">
-            <li class="header-desktop-nav-item">
-              <a class="header-desktop-nav-link" href="#how-it-works">
-                How It Works
-              </a>
-            </li>
-            <li class="header-desktop-nav-item">
-              <a class="header-desktop-nav-link" href="#vegetables">
-                Vegetables
-              </a>
-            </li>
-            <li class="header-desktop-nav-item">
-              <a class="header-desktop-nav-link" href="#review"> Reviews </a>
-            </li>
-          </ul>
-        </nav>
-        <button type="button" class="header-desktop-shop-btn">Shop now</button>
-      </div>
-    </div>
-
-    <!-- mobile-menu -->
-
-    <div class="backdrop">
-      <div class="header-mobile-menu">
-        <button type="button" class="header-menu-close-btn">
-          <svg class="header-icon-close-menu" width="32" height="32">
-            <use href="../img/icons.svg#icon-close"></use>
-          </svg>
-        </button>
-        <nav class="header-mobile-menu-nav">
-          <ul class="header-mobile-menu-list">
-            <li class="header-mobile-menu-item">
-              <a class="header-mobile-menu-link" href="#how-it-works">
-                How It Works
-              </a>
-            </li>
-            <li class="header-mobile-menu-item">
-              <a class="header-mobile-menu-link" href="#vegetables">
-                Vegetables
-              </a>
-            </li>
-            <li class="header-mobile-menu-item">
-              <a class="header-mobile-menu-link" href="#reviews"> Reviews </a>
-            </li>
-          </ul>
-        </nav>
-        <button type="button" class="header-menu-shop-btn">Shop now</button>
-      </div>
-    </div>
-  </div>
-</header>
-
+    
 
     <main>
       <!-- Section 1. Hero -->
@@ -115,7 +48,87 @@
       
       
       
-      
+      <!-- ++++ your-order-section ++++ -->
+
+<section class="your-order section">
+  <div class="container order-container">
+    <h2 class="order-title">
+      Fresh <span class="order-title-span">Harvest</span> Box has got you
+      covered
+    </h2>
+    <p class="order-text">
+      Our boxes are packed with delicious, nutritious vegetables, perfect for
+      anyone looking to eat healthier or support local farmers. Order your box
+      today and start enjoying the best that nature has to offer!
+    </p>
+    <div class="form-soc-container">
+      <div class="order-form-container">
+        <p class="order-form-text">
+          Ordering <span class="from-us-span">from us</span> is quick and easy!
+          Fill out <span class="the-form-span">the form</span> below and we will
+          contact you !
+        </p>
+        <form class="order-form">
+          <input type="text" class="order-input" placeholder="Full Name" />
+          <div class="order-email-container">
+            <input
+              type="email"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+              placeholder="Email"
+              class="order-input order-email"
+              required
+            />
+            <p class="text-valid">Succes!</p>
+            <p class="text-invalid">Invalid email, try again</p>
+          </div>
+          <textarea class="order-textarea" placeholder="Comment"></textarea>
+          <button type="submit" class="order-form-btn">SEND</button>
+        </form>
+      </div>
+      <div class="order-soc-container">
+        <picture>
+          <source
+            media="(min-width: 1280px)"
+            srcset="/project-group-7/assets/order-1x-bb16e631.jpg 1x, /project-group-7/assets/order-2x-7d8522cd.jpg 2x"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="/project-group-7/assets/order-tab-1x-1c8e6148.jpg 1x, /project-group-7/assets/order-tab-2x-d2e97567.jpg 2x"
+          />
+          <source
+            media="(min-width: 320px)"
+            srcset="/project-group-7/assets/order-mob-1x-752d9104.jpg 1x, /project-group-7/assets/order-mob-2x-e39e9896.jpg 2x"
+          />
+          <img
+            src="../img/your-order/order-1x.jpg"
+            alt="example of using products"
+          />
+        </picture>
+        <p class="order-soc-title">Follow us on our social networks:</p>
+        <ul class="order-soc-list">
+          <li class="order-soc-item">
+            <a href="https://www.instagram.com/goitclub/" class="order-soc-link"
+              >instagram</a
+            >
+          </li>
+          <li class="order-soc-item">
+            <a href="https://www.facebook.com/goITclub" class="order-soc-link"
+              >facebook</a
+            >
+          </li>
+          <li class="order-soc-item">
+            <a href="https://www.youtube.com/c/GoIT" class="order-soc-link"
+              >youtube</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ++++++++++++++++++++++ -->
+
     </main>
 
     <footer class="footer"></footer>
